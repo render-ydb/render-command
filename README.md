@@ -1,10 +1,9 @@
 # render-command
 
 <p>
-<a href="https://www.npmjs.com/package/@x.render/render-lint" target="__blank"><img src="https://img.shields.io/npm/v/@x.render/render-command" alt="NPM version"></a>
+<a href="https://www.npmjs.com/package/@x.render/render-command" target="__blank"><img src="https://img.shields.io/npm/v/@x.render/render-command" alt="NPM version" /></a>
 
-<a href="https://www.npmjs.com/package/@x.render/render-lint" target="__blank"><img src="https://img.shields.io/npm/dw/@x.render/render-command
-" alt="NPM Downloads"></a>
+<a href="https://www.npmjs.com/package/@x.render/render-command" target="__blank"><img src="https://img.shields.io/npm/dm/%40x.render%2Frender-command" alt="NPM Downloads" /></a>
 
 </p>
 

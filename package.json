@@ -1,6 +1,6 @@
 {
   "name": "@x.render/render-command",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Abstract base class for scaffolding commands",
   "main": "lib/index.js",
   "scripts": {
