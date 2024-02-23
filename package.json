@@ -1,0 +1,37 @@
+{
+  "name": "@x.render/render-command",
+  "version": "1.0.1",
+  "description": "Abstract base class for scaffolding commands",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "eslint-fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
+    "stylelint-fix": "stylelint --fix src**/*.{css,scss,less}",
+    "prepare": "npx render-lint init  --force",
+    "render-lint-fix": "npm run eslint-fix && npm run stylelint-fix",
+    "render-lint-eject": "npx render-lint eject"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "command",
+    "render",
+    "commander"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "@x.render/render-lint": "^1.1.0",
+    "typescript": "^5.3.3"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": "eslint",
+    "src/**/*.{css,scss,less}": "stylelint"
+  }
+}
